@@ -1,4 +1,6 @@
-{
-    "github-actions.use-enterprise": true,
+curl -X GET "https://api.cloudflare.com/client/v4/user/tokens/verify" \
+     -H "Authorization: Bearer ny4fvliHjb-Z1Qn4BJ2wd0f66TZxoyV94z6yrP_T" \
+          -H "Content-Type:application/json"
+"github-actions.use-enterprise": true,
     "github-actions.workflows.pinned.refresh.enabled": true
 }
